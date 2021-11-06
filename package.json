@@ -5,7 +5,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "buildcss": "npx tailwindcss -o ./styles/tailwind.css"
   },
   "dependencies": {
@@ -18,7 +17,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.2",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
   }

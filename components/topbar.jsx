@@ -14,13 +14,7 @@ const TopBar = () => {
     >
       <div className="w-1/3 topbar__left text-white flex items-center">
         <div className="topbar__left__menu pr-5">
-          <Image
-            src="/vscode_icon.svg"
-            alt="me"
-            width="15"
-            height="15"
-            style={{ marginRight: ".5rem" }}
-          />
+          <Image src="/vscode_icon.svg" alt="me" width="15" height="15" />
         </div>
         <span className="sm:hidden md:inline-block topbar__left__menu mr-2 cursor-pointer text-xs">
           File

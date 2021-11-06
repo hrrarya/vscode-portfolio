@@ -1,7 +1,6 @@
 import React from "react";
 import NavLink from "../NavLink";
 import Image from "next/image";
-import Link from "next/link";
 
 const TopMenu = () => {
   const menu_class =
@@ -9,43 +8,19 @@ const TopMenu = () => {
   return (
     <div className="top_menu flex" style={{ backgroundColor: "#1f2428" }}>
       <NavLink href="/" classes={menu_class}>
-        <Image
-          src="/react_icon.svg"
-          alt="me"
-          width="18"
-          height="18"
-          style={{ marginRight: ".5rem" }}
-        />
+        <Image src="/react_icon.svg" alt="me" width="18" height="18" />
         home.jsx
       </NavLink>
       <NavLink href="/about" classes={menu_class}>
-        <Image
-          src="/html_icon.svg"
-          alt="me"
-          width="18"
-          height="18"
-          style={{ marginRight: ".5rem" }}
-        />
+        <Image src="/html_icon.svg" alt="me" width="18" height="18" />
         about.html
       </NavLink>
       <NavLink href="/contact" classes={menu_class}>
-        <Image
-          src="/css_icon.svg"
-          alt="me"
-          width="18"
-          height="18"
-          style={{ marginRight: ".5rem" }}
-        />
+        <Image src="/css_icon.svg" alt="me" width="18" height="18" />
         contact.css
       </NavLink>
       <NavLink href="/projects" classes={menu_class}>
-        <Image
-          src="/js_icon.svg"
-          alt="me"
-          width="18"
-          height="18"
-          style={{ marginRight: ".5rem" }}
-        />
+        <Image src="/js_icon.svg" alt="me" width="18" height="18" />
         projects.js
       </NavLink>
     </div>

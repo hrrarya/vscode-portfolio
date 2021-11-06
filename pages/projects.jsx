@@ -7,7 +7,7 @@ const Projects = () => {
         <title>Hridoy Mozumder | Projects</title>
       </Head>
       <div className="projects_section px-6 py-2 pr-0 text-white relative w-full mt-4 overflow-y-auto">
-        <h1 className="text-3xl mb-6">Look What I&apos;ve Built</h1>
+        <h1 className="text-3xl mb-6">{`Look What I've Built`}</h1>
         <div className="projects_section__wrapper pr-3">
           <div className="projects_section__wrapper__item mb-5 rounded-2xl">
             <img

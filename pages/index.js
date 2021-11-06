@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
 import HomeBgSvg from "../components/main-section/homeBgSvg";
 import TypedComp from "../components/main-section/typedCom";
 

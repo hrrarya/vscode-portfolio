@@ -1,0 +1,128 @@
+body {
+  background-color: #24292e;
+}
+.left_bar a {
+  border-left: 1px solid transparent;
+  display: inherit;
+}
+.left_bar .active {
+  border-left-color: #f9826c;
+  border-left-width: 1px;
+  display: inherit;
+}
+.left_bar svg:hover {
+  background-color: #1f2428;
+  cursor: pointer;
+}
+.left_bar_top {
+  height: calc(100vh - 1.75rem - 1.5rem);
+}
+.footer__left__link:hover {
+  background-color: #4f4f52;
+}
+.middle_bar__menu_wrapper_menu__item {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.middle_bar__menu_wrapper_menu__item:hover {
+  background-color: #24292e;
+}
+.middle_bar__menu_wrapper_menu__item img {
+  margin-right: 0.1rem !important;
+}
+.top_menu_item {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.top_menu_item.active {
+  background: #24292e;
+  border-top: 2px solid #f9826c;
+}
+.top_menu_item img {
+  margin-right: 0.1rem !important;
+}
+.foreground_text__left {
+  /* background-color: rgba(56, 58, 61, 0.35); */
+  z-index: 2;
+  height: 70vh;
+}
+.foreground_text__right {
+  color: #f9826c;
+}
+.foreground_text__right svg {
+  height: 33rem;
+}
+.button_item {
+  border-color: #f9826c;
+  border-width: 2px;
+}
+.button_item:hover,
+.button_item:focus {
+  background-color: #f9826c;
+}
+.background_text {
+  z-index: 1;
+  color: rgba(56, 58, 61, 0.35);
+  font-family: montserrat;
+  font-size: 12rem;
+}
+.typed-cursor {
+  font-size: 30px;
+}
+.contact_section,
+.projects_section {
+  font-family: "JetBrains Mono", monospace;
+}
+.contact_section__right__socials {
+  counter-reset: line;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.contact_section__right__socials p:before {
+  content: counter(line);
+  counter-increment: line;
+  margin-right: 1rem;
+  color: grey;
+}
+.socials_color {
+  color: #f9826c;
+}
+
+.contact_section__right input,
+.contact_section__right textarea {
+  background: #1f2428;
+  outline: none;
+  padding: 0.75rem;
+}
+.contact_section__right input:focus,
+.contact_section__right textarea:focus {
+  outline: 1px solid #f9826c;
+}
+.contact_section__right label {
+  padding: 0.5rem 0 0.5rem 0;
+  display: inline-block;
+}
+
+.contact_section__right__submit {
+  border-color: #f9826c;
+  border-width: 1px;
+  padding: 0.25rem 0.75rem !important;
+  margin-top: 0.75rem;
+}
+.contact_section__right__submit:focus,
+.contact_section__right__submit:hover {
+  background-color: #f9826c;
+}
+.projects_section__wrapper__item {
+  background-color: #1f2428;
+}
+.projects_section {
+  height: 83vh;
+}
+.projects_section__wrapper {
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const TopMenu = () => {
   const menu_class =
-    "top_menu_item flex items-center text-white text-sm px-6 py-1";
+    "top_menu_item flex items-center text-white text-sm px-6 sm:px-1 py-1 sm:text-xs sm:block sm:text-center";
   return (
     <div className="top_menu flex" style={{ backgroundColor: "#1f2428" }}>
       <NavLink href="/" classes={menu_class}>

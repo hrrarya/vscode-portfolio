@@ -28,7 +28,7 @@ class TypedComp extends Component {
     return (
       <>
         <span
-          className="text-3xl"
+          className="text-3xl sm:text-sm"
           style={{ whiteSpace: "pre" }}
           ref={(el) => {
             this.el = el;

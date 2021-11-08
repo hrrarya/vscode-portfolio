@@ -12,7 +12,7 @@ const MiddleBar = () => {
     "middle_bar__menu_wrapper_menu__item flex items-center p-1";
   return (
     <div
-      className="middle_bar md:w-2/12 w-3/12 shadow-sm"
+      className="middle_bar shadow-sm md:hidden w-2/12"
       style={{ backgroundColor: "#1f2428" }}
     >
       <p className="middle_bar__title text-white uppercase mb-2 px-2 py-1 tracking-widest text-sm">

@@ -8,7 +8,7 @@ const MainSection = ({ page }) => {
     <section className="main_section flex shadow">
       <LeftBar />
       <MiddleBar />
-      <div className="main_section__site w-full">
+      <div className="main_section__site overflow-hidden w-full">
         <TopMenu />
         {page}
       </div>

@@ -12,10 +12,10 @@ import { FaReact } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer
-      className="footer h-6 mx-2 flex items-center justify-between"
+      className="footer h-6 mx-2 flex sm:block  items-center justify-between"
       style={{ backgroundColor: "#24292e" }}
     >
-      <div className="footer__left flex">
+      <div className="footer__left flex sm:hidden">
         <div className="footer__left__link flex hover:bg-gray-900 p-1">
           <VscGitCompare size={15} color="white" />
           <span className="text-xs text-white ml-1">main</span>
@@ -29,7 +29,7 @@ const Footer = () => {
           <span className="text-xs text-white ml-1">0</span>
         </div>
       </div>
-      <div className="footer__right flex">
+      <div className="footer__right flex sm:justify-between">
         <div className="footer__left__link flex hover:bg-gray-900 p-1">
           <FaReact size={15} color="white" />
           <span className="text-xs text-white ml-1">Powered by React</span>

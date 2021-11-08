@@ -10,9 +10,9 @@ const TopBar = () => {
   return (
     <div
       style={{ backgroundColor: "#1f2428" }}
-      className="topbar p-3 h-7 flex justify-between items-center"
+      className="topbar p-3 h-7 sm:py-5 flex justify-between items-center"
     >
-      <div className="w-1/3 topbar__left text-white flex items-center">
+      <div className="w-1/3 topbar__left text-white flex items-center md:opacity-0">
         <div className="topbar__left__menu pr-5">
           <Image src="/vscode_icon.svg" alt="me" width="15" height="15" />
         </div>

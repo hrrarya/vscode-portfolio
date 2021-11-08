@@ -64,7 +64,7 @@ body {
   z-index: 1;
   color: rgba(56, 58, 61, 0.35);
   font-family: montserrat;
-  font-size: 12rem;
+  /*font-size: 12rem;*/
 }
 .typed-cursor {
   font-size: 30px;
@@ -75,8 +75,8 @@ body {
 }
 .contact_section__right__socials {
   counter-reset: line;
-  font-size: 1.2rem;
-  line-height: 2rem;
+  /*font-size: 1.2rem;
+  l*/ine-height: 2rem;
 }
 .contact_section__right__socials p:before {
   content: counter(line);
@@ -103,6 +103,16 @@ body {
   display: inline-block;
 }
 
+@media screen and (max-width: 480px) {
+  .contact_section__right input,
+.contact_section__right textarea {
+  padding: 0.25rem;
+}
+.contact_section__right label {
+  font-size: .8rem;
+}
+}
+
 .contact_section__right__submit {
   border-color: #f9826c;
   border-width: 1px;
@@ -125,4 +135,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   gap: 1.5rem;
+}
+.main_section.tablet {
+  height: calc(100vh + 3rem);
 }

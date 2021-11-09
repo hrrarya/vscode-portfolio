@@ -1,5 +1,14 @@
 module.exports = {
   darkMode: false, // or 'media' or 'class'
+  purge: {
+    enabled: true,
+    content: [
+      "./pages/*.js",
+      "./pages/*.jsx",
+      "./components/*.jsx",
+      "./components/main-section/*.jsx",
+    ],
+  },
   theme: {
     extend: {},
     screens: {

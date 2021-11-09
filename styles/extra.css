@@ -129,13 +129,13 @@ body {
 .projects_section {
   height: 83vh;
 }
-.projects_section__wrapper {
+/*.projects_section__wrapper {
   margin: 1.5rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   gap: 1.5rem;
-}
+}*/
 .main_section.tablet {
   height: calc(100vh + 3rem);
 }

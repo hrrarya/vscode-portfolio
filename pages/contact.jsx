@@ -6,8 +6,10 @@ const Contact = () => {
         <title>Hridoy Mozumder | Contact</title>
       </Head>
       <div className="contact_section px-6 py-2 pr-0 text-white relative w-full mt-4 font-mono flex sm:flex-col">
-        <div className="w-1/2 sm:w-full contact_section__left md:border-r-2 sm:border-r-0 sm:border-b-2 sm:pb-2">
-          <h1 className="text-3xl md:text-xl sm:text-sm">Reach Out Via Socials</h1>
+        <div className="w-1/2 sm:w-full contact_section__left border-r-2 sm:border-r-0 sm:border-b-2 sm:pb-2">
+          <h1 className="text-3xl md:text-xl sm:text-sm">
+            Reach Out Via Socials
+          </h1>
           <div className="contact_section__right__socials mt-3 sm:text-xs">
             <p>
               <span className="socials_color md:">.socials</span>
@@ -21,6 +23,7 @@ const Contact = () => {
               >
                 hrrarya6@gmail.com
               </a>
+              ;
             </p>
             <p>
               &nbsp;&nbsp;&nbsp; github:&nbsp;
@@ -30,6 +33,7 @@ const Contact = () => {
               >
                 hrrarya
               </a>
+              ;
             </p>
             <p>
               &nbsp;&nbsp;&nbsp; linkedin:&nbsp;
@@ -39,6 +43,7 @@ const Contact = () => {
               >
                 hrrarya
               </a>
+              ;
             </p>
             <p>
               &nbsp;&nbsp;&nbsp; twitter:&nbsp;
@@ -48,12 +53,15 @@ const Contact = () => {
               >
                 hrrarya
               </a>
+              ;
             </p>
             <p>{"}"}</p>
           </div>
         </div>
         <div className="w-1/2 sm:w-full contact_section__right p-6 sm:p-2 sm:pt-2">
-          <h1 className="text-3xl mb-2 md:text-xl sm:text-sm">Or Fill Out The Form</h1>
+          <h1 className="text-3xl mb-2 md:text-xl sm:text-sm">
+            Or Fill Out The Form
+          </h1>
           <form>
             <div className="flex sm:flex-col">
               <div className="w-1/2 sm:w-full mr-3">

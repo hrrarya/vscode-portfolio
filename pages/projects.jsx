@@ -253,6 +253,48 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
+            <div className="projects_section__wrapper__item rounded-2xl">
+              <img
+                src="/litmas-homepage.png"
+                alt="Litmas"
+                className="rounded-2xl"
+              />
+              <div className="px-2 py-4">
+                <h2 className="text-xl leading-normal sm:text-lg">Litmas</h2>
+                <p className="text-xs">Litmas is a story sharing app.</p>
+                <div className="stack my-3 flex flex-wrap">
+                  <span className="px-2 py-1 mr-2 mb-2 text-xs border border-pink-300 rounded-xl">
+                    NextJS
+                  </span>
+                  <span className="px-2 py-1 mr-2 mb-2 text-xs border border-pink-300 rounded-xl">
+                    tailwind
+                  </span>
+                  <span className="px-2 py-1 mr-2 mb-2 text-xs border border-pink-300 rounded-xl">
+                    node
+                  </span>
+                </div>
+                <div className="links">
+                  <a
+                    href="https://github.com/hrrarya/litmas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-b-2 cursor-pointer border-pink-300 mr-2 sm:text-xs"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    href="http://litmas.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-b-2 cursor-pointer border-pink-300 mr-2 sm:text-xs"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 const Projects = () => {
   return (
     <>
@@ -11,9 +12,12 @@ const Projects = () => {
         <div className="projects_section__wrapper flex flex-wrap px-0">
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?cs=srgb&dl=pexels-pixabay-159711.jpg&fm=jpg"
                 alt="lms"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">
@@ -58,9 +62,12 @@ const Projects = () => {
           </div>
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4916023/pexels-photo-4916023.jpeg?cs=srgb&dl=pexels-maria-orlova-4916023.jpg&fm=jpg"
                 alt="ice creame shop"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">
@@ -97,9 +104,12 @@ const Projects = () => {
           </div>
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?cs=srgb&dl=pexels-tracy-le-blanc-607812.jpg&fm=jpg"
                 alt="Popular website rebuild with html"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">
@@ -165,9 +175,12 @@ const Projects = () => {
           </div>
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?cs=srgb&dl=pexels-boonkong-boonpeng-1134176.jpg&fm=jpg"
                 alt="Hotel Resort"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">
@@ -211,10 +224,13 @@ const Projects = () => {
             </div>
           </div>
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
-            <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+            <div className="projects_section__wrapper__item rounded-2xl relative">
+              <Image
                 src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?cs=srgb&dl=pexels-olia-danilevich-4974914.jpg&fm=jpg"
                 alt="VS Code Portfolio"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">
@@ -255,9 +271,12 @@ const Projects = () => {
           </div>
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
-              <img
+              <Image
                 src="/litmas-homepage.png"
                 alt="Litmas"
+                width={500}
+                height={330}
+                objectFit="cover"
                 className="rounded-2xl"
               />
               <div className="px-2 py-4">

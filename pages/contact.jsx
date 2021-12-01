@@ -30,6 +30,8 @@ const Contact = () => {
               <a
                 href="https://github.com/hrrarya"
                 className="socials_color hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 hrrarya
               </a>
@@ -40,6 +42,8 @@ const Contact = () => {
               <a
                 href="https://linkedin.com/hrrarya"
                 className="socials_color hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 hrrarya
               </a>
@@ -50,6 +54,8 @@ const Contact = () => {
               <a
                 href="https://twitter.com/hrrarya"
                 className="socials_color hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 hrrarya
               </a>

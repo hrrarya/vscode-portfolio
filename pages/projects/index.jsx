@@ -1,15 +1,59 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
+import { projects } from "./project-data";
+import Demo from "./demo";
+import Stack from "./stack";
+
 const Projects = () => {
+  const reversed = [...projects].reverse();
+
   return (
     <>
       <Head>
+        <meta name="description" content="Here is my projects." />
         <title>Hridoy Mozumder | Projects</title>
       </Head>
       <div className="projects_section px-6 sm:px-2  py-2 pr-0 text-white relative w-full mt-4 overflow-y-auto">
         <h1 className="text-3xl sm:text-xl mb-6">{`Look What I've Built`}</h1>
         <div className="projects_section__wrapper flex flex-wrap px-0">
+          {reversed.map((project, index) => (
+            <div key={index} className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
+              <div className="projects_section__wrapper__item rounded-2xl">
+                <Image
+                  src={project?.image?.src}
+                  alt={project?.image?.altText}
+                  width={500}
+                  height={330}
+                  objectFit="cover"
+                  className="rounded-2xl"
+                />
+                <div className="px-2 py-4">
+                  <h2 className="text-xl leading-normal sm:text-lg">
+                    {project?.title}
+                  </h2>
+                  <p className="text-xs">{project?.description}</p>
+                  <div className="stack my-3 flex flex-wrap">
+                    <Stack stack={project?.stack} />
+                  </div>
+                  <div className="links flex flex-wrap">
+                    {project?.sourceCode && (
+                      <a
+                        href={project?.sourceCode}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="border-b-2 cursor-pointer border-pink-300 mr-2 sm:text-xs"
+                      >
+                        Source Code
+                      </a>
+                    )}
+                    <Demo demo={project?.demo} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        {/* <div className="projects_section__wrapper flex flex-wrap px-0">
           <div className="px-2 mb-2 w-1/3 md:w-1/2 sm:w-full">
             <div className="projects_section__wrapper__item rounded-2xl">
               <Image
@@ -314,7 +358,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

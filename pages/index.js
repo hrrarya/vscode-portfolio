@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hridoy Mozumder | Home</title>
+        <title>Home | Hridoy Mozumder</title>
         <meta
           name="description"
           content="Hridoy Mozumder is a frontend developer.He is master in JavaScript, PHP, React and Next JS.Hire him now..."

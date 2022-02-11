@@ -11,7 +11,7 @@ const Projects = () => {
     <>
       <Head>
         <meta name="description" content="Here is my projects." />
-        <title>Hridoy Mozumder | Projects</title>
+        <title>Projects | Hridoy Mozumder</title>
       </Head>
       <div className="projects_section px-6 sm:px-2  py-2 pr-0 text-white relative w-full mt-4 overflow-y-auto">
         <h1 className="text-3xl sm:text-xl mb-6">{`Look What I've Built`}</h1>

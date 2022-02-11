@@ -3,7 +3,8 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Hridoy Mozumder | Contact</title>
+        <title>Contact | Hridoy Mozumder</title>
+        <meta name="description" content="Here is my contact information." />
       </Head>
       <div className="contact_section px-6 py-2 pr-0 text-white relative w-full mt-4 font-mono flex sm:flex-col">
         <div className="w-1/2 sm:w-full contact_section__left border-r-2 sm:border-r-0 sm:border-b-2 sm:pb-2">

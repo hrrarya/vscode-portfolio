@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import { projects } from "./project-data";
-import Demo from "./demo";
-import Stack from "./stack";
+import { projects } from "../../components/projects/project-data";
+import Demo from "../../components/projects/demo";
+import Stack from "../../components/projects/stack";
 
 const Projects = () => {
   const reversed = [...projects].reverse();

@@ -143,7 +143,7 @@ const projects = [
     },
     stack: [
       {
-        name: "NextsJS",
+        name: "Next.JS",
       },
       {
         name: "Tailwind",
@@ -171,7 +171,7 @@ const projects = [
     },
     stack: [
       {
-        name: "NextsJS",
+        name: "Next.JS",
       },
       {
         name: "Tailwind",
@@ -198,7 +198,7 @@ const projects = [
     },
     stack: [
       {
-        name: "NextsJS",
+        name: "Next.JS",
       },
       {
         name: "Bootstrap",
@@ -225,7 +225,7 @@ const projects = [
     },
     stack: [
       {
-        name: "NextsJS",
+        name: "Next.JS",
       },
       {
         name: "Bootstrap",
@@ -236,6 +236,39 @@ const projects = [
       {
         title: "Live Demo",
         src: "http://realio.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Pocket Clone",
+    description: "Get Pocket Clone.",
+    image: {
+      src: "/pocket_clone.jpg",
+      altText: "Pocket Clone",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwind",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+      {
+        name: "Apache",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "Live Demo",
+        src: "https://pocket-react.cleaninggadget.com/",
       },
     ],
   },

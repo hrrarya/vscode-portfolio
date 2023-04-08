@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import Typed from "typed.js";
 
 const words = [
-  "Javascript Consultant",
-  "Backend Developer",
-  "Open source contributor",
+  "JavaScript,PHP Consultant",
+  "Full-Stack Developer",
+  "Open Source Contributor",
+  "Linux Enthusiast",
 ];
 
 class TypedComp extends Component {

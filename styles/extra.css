@@ -76,7 +76,8 @@ body {
 .contact_section__right__socials {
   counter-reset: line;
   /*font-size: 1.2rem;
-  l*/ine-height: 2rem;
+  l*/
+  ine-height: 2rem;
 }
 .contact_section__right__socials p:before {
   content: counter(line);
@@ -105,12 +106,12 @@ body {
 
 @media screen and (max-width: 480px) {
   .contact_section__right input,
-.contact_section__right textarea {
-  padding: 0.25rem;
-}
-.contact_section__right label {
-  font-size: .8rem;
-}
+  .contact_section__right textarea {
+    padding: 0.25rem;
+  }
+  .contact_section__right label {
+    font-size: 0.8rem;
+  }
 }
 
 .contact_section__right__submit {
@@ -127,15 +128,19 @@ body {
   background-color: #1f2428;
 }
 .projects_section {
-  height: 83vh;
+  height: 82vh;
 }
-/*.projects_section__wrapper {
-  margin: 1.5rem 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  gap: 1.5rem;
-}*/
+.projects_section::-webkit-scrollbar {
+  display: none;
+}
+.projects_section {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.projects_section__wrapper__item.rounded-2xl > span {
+  width: 100% !important;
+  object-fit: cover;
+}
 .main_section.tablet {
   height: calc(100vh + 3rem);
 }

@@ -14,7 +14,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className="px-6 py-2 pr-0 text-white relative w-full">
+      <div className="px-6 pr-0 text-white relative w-full">
         <div className="background_text text-8xl sm:text-5xl font-mono absolute mt-20 justify-center top-0 bottom-0 w-full overflow-hidden">
           <p>I Build</p>
           <p>Websites</p>

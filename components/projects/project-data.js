@@ -128,7 +128,7 @@ const projects = [
     demo: [
       {
         title: "Live Demo",
-        src: "https://hotelbooking.toptablereviews.com/",
+        src: "http://hotel-resort.cleaninggadget.com/",
         target: "_blank",
       },
     ],

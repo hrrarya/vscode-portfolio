@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: "Library Management System",
-    description: "A web app for manage books.",
+    description: "A web app for manage books and distribute books.",
     image: {
       src: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?cs=srgb&dl=pexels-pixabay-159711.jpg&fm=jpg",
       altText: "lms",
@@ -25,7 +25,7 @@ const projects = [
     demo: [
       {
         title: "Live Demo",
-        src: "https://phplms.toptablereviews.com/",
+        src: "https://lms.cleaninggadget.com/",
         target: "_blank",
       },
     ],

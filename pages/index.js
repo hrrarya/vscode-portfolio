@@ -26,12 +26,12 @@ export default function Home() {
               <TypedComp />
             </div>
             <div className="buttons mt-3">
-              <Link href="/projects">
+              <Link href="/projects" legacyBehavior>
                 <a className="button_item text-white border rounded px-3 py-2  mr-2 cursor-pointer sm:text-xs">
                   View Work
                 </a>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact" legacyBehavior>
                 <a className="button_item text-white border rounded px-3 py-2  mr-2 cursor-pointer sm:text-xs">
                   Contact Me
                 </a>

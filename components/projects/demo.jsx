@@ -13,7 +13,7 @@ const Demo = ({ demo }) => {
         {item?.title}
       </a>
     ) : (
-      <Link key={index} href="/">
+      <Link key={index} href="/" legacyBehavior>
         <a className="border-b-2 cursor-pointer border-pink-300 mr-2 sm:text-xs">
           {item?.title}
         </a>

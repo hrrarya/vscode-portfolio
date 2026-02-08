@@ -304,7 +304,7 @@ const Projects = () => {
                   >
                     Source Code
                   </a>
-                  <Link href="/">
+                  <Link href="/" legacyBehavior>
                     <a className="border-b-2 cursor-pointer border-pink-300 mr-2 sm:text-xs">
                       Live Demo
                     </a>

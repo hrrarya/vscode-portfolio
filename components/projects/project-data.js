@@ -23,11 +23,11 @@ const projects = [
     ],
     sourceCode: "https://github.com/hrrarya/LibraryMannagementSystem_PHP_OOP",
     demo: [
-      {
-        title: "Live Demo",
-        src: "https://lms.cleaninggadget.com/",
-        target: "_blank",
-      },
+      // {
+      //   title: "Live Demo",
+      //   src: "https://lms.cleaninggadget.com/",
+      //   target: "_blank",
+      // },
     ],
   },
   {
@@ -124,13 +124,13 @@ const projects = [
         name: "Apache",
       },
     ],
-    sourceCode: "https://github.com/hrrarya/Hotel-resort",
+    sourceCode: "https://github.com/hrrarya/Hotel-resort",  
     demo: [
-      {
-        title: "Live Demo",
-        src: "http://hotel-resort.cleaninggadget.com/",
-        target: "_blank",
-      },
+      // {
+      //   title: "Live Demo",
+      //   src: "http://hotel-resort.cleaninggadget.com/",
+      //   target: "_blank",
+      // },
     ],
   },
   {
@@ -264,11 +264,263 @@ const projects = [
         name: "Apache",
       },
     ],
+    sourceCode: "https://github.com/hrrarya/pocket-clone",
+    demo: [
+      {
+        title: "Backend Code",
+        src: "https://github.com/hrrarya/pocket-clone-backend",
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Divi Essential",
+    description: "The Most Powerful All-in-One Module Pack — Divi 5 Compatible",
+    associated: "DiviNext",
+    image: {
+      src: "https://ucarecdn.com/6a8958d3-7a2f-46bf-b9c7-7ad3564ecc1d/-/resize/1428x/-/format/jpeg/-/quality/normal/",
+      altText: "Divi Essential",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "Divi 5",
+      },
+      {
+        name: "Divi 4",
+      }
+    ],
     sourceCode: "",
     demo: [
       {
-        title: "Live Demo",
-        src: "https://pocket-react.cleaninggadget.com/",
+        title: "Website",
+        src: "https://diviessential.com/",
+      },
+      {
+        title: "Divi Marketplace",
+        src: "https://www.elegantthemes.com/marketplace/divi-essential/",
+      },
+    ],
+  },
+  {
+    id: 12,
+    title: "Woo Essential",
+    description: "The Complete WooCommerce Solution for Divi Built for Divi 5",
+    associated: "DiviNext",
+    image: {
+      src: "https://ucarecdn.com/413c6df1-00e5-4890-b1b8-0544448a3912/-/resize/1428x/-/format/jpeg/-/quality/normal/",
+      altText: "Woo Essential",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "Divi 5",
+      },
+      {
+        name: "Divi 4",
+      }
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "Website",
+        src: "https://wooessential.com/",
+      },
+      {
+        title: "Divi Marketplace",
+        src: "https://www.elegantthemes.com/marketplace/woo-essential/",
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "Simple 301 Redirects by BetterLinks – Easy Redirect Manager",
+    associated: "WPDeveloper",
+    description: "Improve Your Website User Experience With Simple 301 Redirects Solution for WordPress",
+    image: {
+      src: "https://ps.w.org/simple-301-redirects/assets/screenshot-1.png?rev=2783827",
+      altText: "Simple 301 Redirects",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "WordPress.Org",
+        src: "https://wordpress.org/plugins/simple-301-redirects/",
+      },
+    ],
+  },
+  {
+    id: 14,
+    title: "BetterLinks – Link Shortener, Link Cloaking, Redirects, Affiliate Link Manager & MCP",
+    description: "BetterLinks is the complete link management plugin for WordPress.",
+    associated: "WPDeveloper",
+    image: {
+      src: "https://ps.w.org/betterlinks/assets/banner-1544x500.gif?rev=3107962",
+      altText: "Betterlinks",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+      {
+        name: "Google Analytics",
+      },
+      {
+        name: "Facebook Pixel",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "WordPress.Org",
+        src: "https://wordpress.org/plugins/betterlinks/",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "Charts for Divi – Divi Theme, Extra Theme and Divi Builder",
+    description: "Charts for Divi is unlike any other chart plugin out there. It’s loaded with a bunch of free, powerful, and easy-to-use chart modules.",
+    image: {
+      src: "https://ps.w.org/charts-for-divi/assets/screenshot-2.png?rev=3285675",
+      altText: "Charts for Divi",
+    },
+    stack: [
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "Divi 4",
+      }
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "WordPress.Org",
+        src: "https://wordpress.org/plugins/charts-for-divi/",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Reviewkit – Trustpilot Reviews Widget & Embed",
+    description: "Reviewkit is a wordpress plugin that seamlessly integrates Trustpilot Reviews into your website, Serving over 1k real client",
+    image: {
+      src: "https://ps.w.org/gutensuite-reviewkit/assets/screenshot-1.png?rev=3436674",
+      altText: "Reviewkit",
+    },
+    stack: [
+      {
+        name: "Python",
+      },
+      {
+        name: "Playwright",
+      },
+      {
+        name: "React",
+      },
+      {
+        name: "WordPress Plugin",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+      {
+        name: "SCSS",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "Website",
+        src: "https://reviewkit.gutensuite.net/",
+      },
+      {
+        title: "WordPress.Org",
+        src: "https://wordpress.org/plugins/gutensuite-reviewkit/",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Unimart - Multipurpose WooCommerce Theme",
+    description: "A powerful, modern eCommerce WordPress theme built for online stores of every size — from a single-product shop to a multi-category marketplace, powered by WooCommerce.",
+    associated: "Rainbow Themes",
+    image: {
+      src: "https://market-resized.envatousercontent.com/themeforest.net/files/819409892/01_preview.__large_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=ec8dd2c4147c2b69d0342d969f4d6cbd8f4af22a63ff985fda47367b47393c0a",
+      altText: "Unimart - A Modern WooCommerce Theme",
+    },
+    stack: [
+      {
+        name: "WordPress Theme",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+      {
+        name: "SCSS",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "Website",
+        src: "https://www.getunimart.com/",
+      },
+      {
+        title: "Themeforest",
+        src: "https://themeforest.net/item/unimart-multipurpose-woocommerce-wordpress-theme/63756550",
       },
     ],
   },

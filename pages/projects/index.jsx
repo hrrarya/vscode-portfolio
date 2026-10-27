@@ -30,6 +30,9 @@ const Projects = () => {
                 <div className="px-2 py-4">
                   <h2 className="text-xl leading-normal sm:text-lg">
                     {project?.title}
+                    {
+                      project?.associated && <small className="text-xs border rounded-xl mx-2 px-2">Associated with {project.associated}</small>
+                    }
                   </h2>
                   <p className="text-xs">{project?.description}</p>
                   <div className="stack my-3 flex flex-wrap">

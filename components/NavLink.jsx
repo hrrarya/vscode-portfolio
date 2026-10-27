@@ -6,7 +6,7 @@ const NavLink = ({ href, classes, children }) => {
   const router = useRouter();
 
   return (
-    <Link href={href}>
+    <Link legacyBehavior href={href}>
       <a className={`${classes} ${router.pathname === href ? "active" : ""}`}>
         {children}
       </a>

@@ -134,7 +134,7 @@ const About = () => {
             <span className="socials_color">
               &lt;a href=&quot;/projects&quot;&gt;
             </span>
-            <Link href="/projects">
+            <Link legacyBehavior href="/projects">
               <a className="border-b-2 cursor-pointer border-pink-300">
                 check out what I&apos;ve built
               </a>
@@ -150,12 +150,12 @@ const About = () => {
           </p>
         </div>
         <div className="mt-3">
-          <Link href="/projects">
+          <Link legacyBehavior href="/projects">
             <a className="button_item text-white border rounded px-3 py-2 mr-2 cursor-pointer sm:text-xs">
               View Work
             </a>
           </Link>
-          <Link href="/contact">
+          <Link legacyBehavior href="/contact">
             <a className="button_item text-white border rounded px-3 py-2 mr-2 cursor-pointer sm:text-xs">
               Contact Me
             </a>

@@ -21,7 +21,6 @@ const About = () => {
         />
       </Head>
       <div className="projects_section px-6 sm:px-2 py-2 pr-0 text-white relative w-full mt-4 overflow-y-auto">
-        <h1 className="text-3xl sm:text-xl mb-6">About Me</h1>
         <div className="projects_section__wrapper__item rounded-2xl p-6 sm:p-2 contact_section__right__socials sm:text-xs">
           <p>
             <span className="socials_color">&lt;!DOCTYPE html&gt;</span>
@@ -148,18 +147,6 @@ const About = () => {
           <p>
             <span className="socials_color">&lt;/html&gt;</span>
           </p>
-        </div>
-        <div className="mt-3">
-          <Link legacyBehavior href="/projects">
-            <a className="button_item text-white border rounded px-3 py-2 mr-2 cursor-pointer sm:text-xs">
-              View Work
-            </a>
-          </Link>
-          <Link legacyBehavior href="/contact">
-            <a className="button_item text-white border rounded px-3 py-2 mr-2 cursor-pointer sm:text-xs">
-              Contact Me
-            </a>
-          </Link>
         </div>
       </div>
     </>

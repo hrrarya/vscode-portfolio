@@ -274,6 +274,54 @@ const projects = [
   },
   {
     id: 11,
+    title: "Divi5 Module Init CLI Tool",
+    description: "The divi5-module-init CLI tool simplifies the creation of Divi 5 modules by generating the necessary boilerplate code for your project.",
+    image: {
+      src: "https://placehold.co/500x270/25178b/FFF?text=Divi5+Module+CLI",
+      altText: "Divi5 Module Init CLI Tool",
+    },
+    stack: [
+      {
+        name: "JavaScript",
+      },
+      {
+        name: "CLI",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "NPM Repository",
+        src: "https://www.npmjs.com/package/divi5-module-init",
+      },
+    ],
+  },
+  {
+    id: 12,
+    title: "WP Plugin Boilerplate CLI",
+    description: "A CLI tool to automate the setup of new WordPress plugins with React.js setup. It simplifies the process by taking inputs and replacing boilerplate code, saving developers time and effort.",
+    image: {
+      src: "https://static-production.npmjs.com/a12c728e90758ccd16976b394b964317.png",
+      altText: "WP Plugin Boilerplate CLI",
+    },
+    stack: [
+      {
+        name: "JavaScript",
+      },
+      {
+        name: "CLI",
+      },
+    ],
+    sourceCode: "",
+    demo: [
+      {
+        title: "NPM Repository",
+        src: "https://www.npmjs.com/package/wp-add-plugin",
+      },
+    ],
+  },
+  {
+    id: 13,
     title: "Divi Essential",
     description: "The Most Powerful All-in-One Module Pack — Divi 5 Compatible",
     associated: "DiviNext",
@@ -311,7 +359,7 @@ const projects = [
     ],
   },
   {
-    id: 12,
+    id: 14,
     title: "Woo Essential",
     description: "The Complete WooCommerce Solution for Divi Built for Divi 5",
     associated: "DiviNext",
@@ -349,7 +397,7 @@ const projects = [
     ],
   },
   {
-    id: 13,
+    id: 15,
     title: "Simple 301 Redirects by BetterLinks – Easy Redirect Manager",
     associated: "WPDeveloper",
     description: "Improve Your Website User Experience With Simple 301 Redirects Solution for WordPress",
@@ -380,7 +428,7 @@ const projects = [
     ],
   },
   {
-    id: 14,
+    id: 16,
     title: "BetterLinks – Link Shortener, Link Cloaking, Redirects, Affiliate Link Manager & MCP",
     description: "BetterLinks is the complete link management plugin for WordPress.",
     associated: "WPDeveloper",
@@ -417,7 +465,7 @@ const projects = [
     ],
   },
   {
-    id: 15,
+    id: 17,
     title: "Charts for Divi – Divi Theme, Extra Theme and Divi Builder",
     description: "Charts for Divi is unlike any other chart plugin out there. It’s loaded with a bunch of free, powerful, and easy-to-use chart modules.",
     image: {
@@ -447,7 +495,7 @@ const projects = [
     ],
   },
   {
-    id: 16,
+    id: 18,
     title: "Reviewkit – Trustpilot Reviews Widget & Embed",
     description: "Reviewkit is a wordpress plugin that seamlessly integrates Trustpilot Reviews into your website, Serving over 1k real client",
     image: {
@@ -490,7 +538,7 @@ const projects = [
     ],
   },
   {
-    id: 17,
+    id: 19,
     title: "Unimart - Multipurpose WooCommerce Theme",
     description: "A powerful, modern eCommerce WordPress theme built for online stores of every size — from a single-product shop to a multi-category marketplace, powered by WooCommerce.",
     associated: "Rainbow Themes",

@@ -8,6 +8,7 @@
     "buildcss": "npx tailwindcss -o ./styles/tailwind.css"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
     "next": "^16.4.3",
     "next-pwa": "^5.4.0",
     "react": "^19.3.1",
@@ -18,7 +19,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "eslint": "7",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.4"
   }
 }

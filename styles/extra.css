@@ -78,7 +78,7 @@ body {
   counter-reset: line;
   /*font-size: 1.2rem;
   l*/
-  ine-height: 2rem;
+  /* ine-height: 2rem; */
 }
 .contact_section__right__socials p:before {
   content: counter(line);

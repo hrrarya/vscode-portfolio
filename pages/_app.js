@@ -1,4 +1,5 @@
-import "../styles/tailwind.css";
+// import "../styles/tailwind.css";
+import "../styles/globals.css";
 import "../styles/extra.css";
 import Layout from "../components/layout";
 

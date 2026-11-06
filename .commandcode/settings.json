@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(npx next build 2 >& 1)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
